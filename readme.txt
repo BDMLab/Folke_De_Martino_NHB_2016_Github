@@ -1,9 +1,9 @@
-This is the data and code required to obtain the analysis results presented in Folke et al. (2016) Explicit representation of confidence informs future value-based decisions. Nature Human Behaviour.  DOI:10.1038/s41562-016-0002.
+This is the data and analysis code associated with the results of Folke et al. (2016) Explicit representation of confidence informs future value-based decisions. Nature Human Behaviour.  DOI:10.1038/s41562-016-0002.
 http://www.nature.com/articles/s41562-016-0002
     
 The code is written by Tomas Folke.
 
-The code is a mixture of python 2.7 and r 3.2, presented in a Jupyter Notebook (http://jupyter.org/). The easiest way to run the code if you are unfamiliar with Jupyter is to download Anaconda’s build for python (https://www.continuum.io/downloads) and then install and implement rpy2 implement (http://rpy.sourceforge.net/)
+The code is a mixture of python 2.7 and r 3.2, combined in a Jupyter Notebook (http://jupyter.org/). The easiest way to run the code if you are unfamiliar with Jupyter is to download Anaconda’s build for python (https://www.continuum.io/downloads) and then install and implement rpy2 implement (http://rpy.sourceforge.net/)
 
 If you want to see the code and the output without running it yourself you can do so here: (http://nbviewer.jupyter.org/gist/Sjnjerak/307631db250dbb9014f6a92d503d760d)  
 
