@@ -9,8 +9,8 @@ If you want to see the code and the output without running it yourself you can d
 
 There are some minor differences in the estimates from the hierarchical models in this notebook compared to those presented in the paper. There are two reasons for this:
 
-1) I changed optimising function for lme4, from ‘L-BFGS-B’ to "nlminb”, because the latter showed better convergence properties. If you want to recreate the exact results from the paper just use ‘L-BFGS-B’.
-2) Since the publication of the paper I realised that the confidence model was overparameterised, we tried to predict a z-scored confidence from a number of z-scored predictors, which made it impossible for lme4 to fit an intercept. I have since then removed the intercept term and the model estimates are more stable. If you want to replicate the results in the paper simple re-add the intercept term and replace the zAbsDV variable with zAbsDV_sqrt.
+1) We changed optimising function for lme4, from ‘L-BFGS-B’ to "nlminb”, because the latter showed better convergence properties. If you want to recreate the exact results from the paper just use ‘L-BFGS-B’.
+2) Since the publication of the paper we realised that the confidence model was overparameterised, we tried to predict a z-scored confidence from a number of z-scored predictors, which made it impossible for lme4 to fit an intercept. We have since then removed the intercept term and the model estimates are more stable. If you want to replicate the results in the paper simple re-add the intercept term and replace the zAbsDV variable with zAbsDV_sqrt.
 
 Please note that none of these changes influence the conclusions we draw in the paper in any way.
 
